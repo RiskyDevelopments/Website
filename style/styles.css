@@ -1,0 +1,281 @@
+/* Latest colour test https://coolors.co/fffbfc-00171f-0c120c-d3bccc-8b2635 */
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: #FFF;
+	min-width: 400px;
+}
+
+a{
+	text-decoration: none;
+	color: unset;
+}
+
+.logo{
+	height: 120px;
+	padding: 5px;
+	float: left;
+}
+
+#up-arrow {
+        position: fixed;
+        bottom: 35px;
+        right: 20px;
+        z-index: 5;
+}
+
+#header{
+	background-color: #CD2220;
+	height: 130px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	box-shadow: 2px 2px 10px  #888888;
+}
+
+#header #title{
+	padding-top: 25px;
+	display: inline-block;
+}
+
+#header #links{
+	float: right;
+	margin-top: 58px;
+	font-size: 20px;
+	color: #FFF;
+	margin-right: 10px;
+}
+
+#header h1{
+	font-size: 40px;
+	font-weight: bold;
+	color: #FFF;
+	display: inline-block;
+}
+
+#header .icon {
+	display: none;
+}
+
+.anchor {
+	display: block;
+	position: relative;
+	top: -129px;
+	visibility: hidden;
+}
+
+.anchor .ass {
+        top: -180px;
+        
+}
+
+.full-width{
+	position: relative;
+	width: 100%;
+}
+
+#content{
+	padding-top: 130px;
+}
+
+#map-container{
+	background-color: #FFDEE5;
+}
+
+#ud-map-container{
+	background-color: white;
+}
+
+#main-menu-container{
+	background-color: #D3BCCC;
+}
+
+#map-img{
+	max-width:80%;
+	max-height:80%;
+	display: block;
+	margin: auto;
+}
+
+#main-menu-img{
+	max-width: 50%;
+	max-height:100%;
+	display: block;
+	margin: auto;
+}
+
+#about-us{
+	padding: 30px 0 30px 0;
+	background-color: #FFDEE5;
+}
+
+#about-us h3{
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.action-button{
+	z-index: 1;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background-color: rgba(255,255,255,0.8);
+	border: 2px solid #DE0F78;
+	color: #352B2B;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.action-button:hover {
+	background-color: #DE0F78;
+	color: #FFDEE5;
+}
+
+.profile{
+	height: 300px;
+}
+
+.card-img{
+	width: 100%;
+}
+
+.cards{
+	margin: auto;
+	text-align: center;
+}
+
+.cards p, .cards a{
+	font-size: 25px;
+	margin: 5px;
+}
+
+.cards a {
+	color: #0000EE;
+}
+.card-text {
+	padding: 20px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.card-text p, .card-text a{
+	padding-bottom: 30px;
+}
+
+.cards .name {
+	font-weight: bold;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	margin-bottom: 20px;
+}
+
+.full-column {
+	float: left;
+	width: 100%;
+}
+
+.half-column {
+	float: left;
+	width: 50%;
+}
+
+.row{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.ass-cont {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	display: block;
+	background-color: #FFDEE5;
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	box-shadow: 2px 2px 3px  #888888;
+}
+
+.ass-cont h1 {
+	display: block;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.ass-cont h2 {
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.ass-cont a, .ass-cont p{
+	font-size: 20px;
+}
+
+.ass-cont .all {
+	color: #DE0F78;
+	font-weight: bold;
+}
+
+.ass-cont li{
+	margin-bottom: 3px;
+}
+
+#contents {
+	text-align: center;
+}
+
+#footer {
+	padding: 10px;
+	background-color: #CD2220;
+	color: #FFF;
+	position: relative;
+	text-align: center;
+}
+
+#footer p, #footer a {
+	display: inline-block;
+}
+
+@media (max-width: 800px) {
+	.column {
+		width: 100%;
+	}
+	
+	.full-column {
+		width: 100%;
+	}
+	
+	.half-column {
+		width: 100%;
+	}
+
+	#links {
+		display: none;
+	}
+}
